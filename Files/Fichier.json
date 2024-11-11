@@ -1,0 +1,166 @@
+{
+  "Livre": [
+    {
+      "id": 33,
+      "titre": "Livre d'aventure",
+      "auteur": "Auteur33",
+      "estLibre": true,
+      "annee": 1999,
+      "nombreDePages": 250,
+      "collection": "Collection Aventure",
+      "resume": "Un roman captivant sur les voyages et les découvertes.",
+      "dateEmprunt": null,
+      "dateRetour": null,
+      "emprunteur": null
+    },
+    {
+      "id": 34,
+      "titre": "Les secrets du succès",
+      "auteur": "Auteur Succès",
+      "estLibre": false,
+      "annee": 2018,
+      "nombreDePages": 320,
+      "collection": "Motivation",
+      "resume": "Comment réussir dans tous les aspects de la vie.",
+      "dateEmprunt": "2024-09-15",
+      "dateRetour": "2024-10-15",
+      "emprunteur": "Alice Dupont"
+    }
+  ],
+  "CD": [
+    {
+      "id": 35,
+      "titre": "Hits 2024",
+      "auteur": "Divers Artistes",
+      "estLibre": true,
+      "duree": 75,
+      "maisonProduction": "Hit Records",
+      "nbPistes": 15,
+      "dateEmprunt": null,
+      "dateRetour": null,
+      "emprunteur": null
+    },
+    {
+      "id": 36,
+      "titre": "Jazz Relax",
+      "auteur": "Auteur Jazz",
+      "estLibre": false,
+      "duree": 55,
+      "maisonProduction": "Jazz Studio",
+      "nbPistes": 8,
+      "dateEmprunt": "2024-10-01",
+      "dateRetour": "2024-10-30",
+      "emprunteur": "Bob Martin"
+    }
+  ],
+  "DVD": [
+    {
+      "id": 37,
+      "titre": "Film de science-fiction",
+      "auteur": "Auteur Sci-Fi",
+      "estLibre": true,
+      "duree": 130,
+      "maisonProduction": "",
+      "nbPistes": 12,
+      "dateEmprunt": null,
+      "dateRetour": null,
+      "emprunteur": null
+    },
+    {
+      "id": 38,
+      "titre": "Documentaire sur l'histoire",
+      "auteur": "Auteur Docu",
+      "estLibre": false,
+      "duree": 95,
+      "maisonProduction": "",
+      "nbPistes": 1,
+      "dateEmprunt": "2024-09-20",
+      "dateRetour": "2024-10-20",
+      "emprunteur": "Jean Valjean"
+    }
+  ],
+  "VHS": [
+    {
+      "id": 39,
+      "titre": "Classique des années 80",
+      "auteur": "Auteur Vintage",
+      "estLibre": true,
+      "duree": 180,
+      "maisonProduction": "",
+      "dateEmprunt": null,
+      "dateRetour": null,
+      "emprunteur": null
+    },
+    {
+      "id": 40,
+      "titre": "VHS comédie",
+      "auteur": "Auteur Comique",
+      "estLibre": false,
+      "duree": 90,
+      "maisonProduction": "",
+      "dateEmprunt": "2024-08-25",
+      "dateRetour": "2024-09-25",
+      "emprunteur": "Emma Leblanc"
+    }
+  ],
+  "Fichier": [
+    {
+      "id": 41,
+      "titre": "Projet informatique",
+      "auteur": "Dev42",
+      "estLibre": true,
+      "taille": 2048,
+      "nom": "ProjetFinal",
+      "cheminAcces": "C:/Projets/ProjetFinal",
+      "dateEmprunt": null,
+      "dateRetour": null,
+      "emprunteur": null
+    },
+    {
+      "id": 42,
+      "titre": "Rapport d'analyse",
+      "auteur": "Analyste42",
+      "estLibre": false,
+      "taille": 512,
+      "nom": "Analyse2024",
+      "cheminAcces": "D:/Documents/Analyse2024",
+      "dateEmprunt": "2024-10-05",
+      "dateRetour": "2024-11-05",
+      "emprunteur": "Lucien Martin"
+    }
+  ],
+  "Revue": [
+    {
+      "id": 43,
+      "titre": "Science et avenir",
+      "auteur": "Scientifique",
+      "estLibre": true,
+      "annee": 2023,
+      "nombreDePages": 150,
+      "collection": "Sciences",
+      "resume": "Les dernières découvertes scientifiques.",
+      "editeur": "Science Editions",
+      "nbArticles": 5,
+      "ListeNomsArticles": ["Article1", "Article2", "Article3", "Article4", "Article5"],
+      "dateEmprunt": null,
+      "dateRetour": null,
+      "emprunteur": null
+    },
+    {
+      "id": 44,
+      "titre": "Tech et Innovations",
+      "auteur": "Auteur Tech",
+      "estLibre": false,
+      "annee": 2022,
+      "nombreDePages": 100,
+      "collection": "Tech Mag",
+      "resume": "Les tendances technologiques de demain.",
+      "editeur": "Tech Magazine",
+      "nbArticles": 4,
+      "ListeNomsArticles": [],
+      "dateEmprunt": "16/10/2024",
+      "dateRetour": "20/20/2024",
+      "emprunteur": "Yoan BERNARD"
+    }
+  ]
+}

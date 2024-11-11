@@ -1,0 +1,32 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "build",
+        "type": "shell",
+        "command": "g++",
+        "args": [
+          "-Wall",
+          "${workspaceFolder}/main.cpp",
+          "${workspaceFolder}/Revue.cpp",
+          "${workspaceFolder}/Livre.cpp",
+          "${workspaceFolder}/Ressource.cpp",
+          "${workspaceFolder}/Mediatheque.cpp",
+          "${workspaceFolder}/CD.cpp",
+          "${workspaceFolder}/DVD.cpp",
+          "${workspaceFolder}/Fichier.cpp",
+          "${workspaceFolder}/VHS.cpp",
+          "-o",
+          "${workspaceFolder}/test",
+          "-I${workspaceFolder}/include"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": ["$gcc"],
+        "detail": "Generated task"
+      }
+    ]
+  }
+  
